@@ -58,8 +58,8 @@ int main() {
 	}
 	cout << "\n\n" << endl;
 	//-------------------------------------------------------------------------------
-	cout << "SORU 5:\nTurkiye'nin baskenti neresidir ?" << endl;
-	cout << "A)Konya    B)Sivas    C)Ankara    D)Edirne" << endl;
+	cout << "SORU 5:\nEn cok kullanilan telefon markasi hangisidir ?" << endl;
+	cout << "A)Apple    B)Huawei    C)Samsung    D)Xiamoi" << endl;
 	cout << "\t\tCevap : ";
 	cin >> s5;
 	if (s5 == 'a' || s5 == 'b' || s5 == 'd') {
