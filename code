@@ -1,0 +1,220 @@
+#include <iostream>
+#include <conio.h>
+using namespace std;
+int main() {
+	char s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15;
+	char eh;
+	cout << "\t--- KIM MILYONER OLMAK ISTERE HOSGELDINIZ --- \n\n" << endl;
+	cout << "\n\n" << endl;
+	cout << "SORU 1:\nMalazgirt savasi kac yilinda yapilmistir ?" << endl;
+	cout << "A)1056    B)1071    C)1156    D)1171" << endl;
+	cout << "\t\tCevap : ";
+	cin >> s1;
+	if (s1 == 'a' || s1 == 'c' || s1 == 'd') {
+		cout << "\tMaalesef yanlis cevap.\n\tHic para kazanamadiniz.\n" << endl;
+		system("pause");exit(0);
+	}
+	else if (s1 == 'b') {
+		cout << "\tDogru cevap - 500 TL'e sahipsiniz.\n" << endl;
+	}
+	cout << "\n\n" << endl;
+	//-------------------------------------------------------------------------------
+	cout << "SORU 2:\nTurkiye'nin baskenti neresidir ?" << endl;
+	cout << "A)Konya    B)Sivas    C)Ankara    D)Edirne" << endl;
+	cout << "\t\tCevap : ";
+	cin >> s2;
+	if (s2 == 'a' || s2 == 'b' || s2 == 'd') {
+		cout << "\tMaalesef yanlis cevap.\n\tHic para kazanamadiniz.\n" << endl;
+		system("pause");exit(0);
+	}
+	else if (s2 == 'c') {
+		cout << "\tDogru cevap - 1000 TL'e sahipsiniz.\n" << endl;
+	}
+	cout << "\n\n" << endl;
+	//-------------------------------------------------------------------------------
+	cout << "SORU 3:\nTurkiye kac bolgeden olusmaktadir ?" << endl;
+	cout << "A)3    B)1    C)4    D)7" << endl;
+	cout << "\t\tCevap : ";
+	cin >> s3;
+	if (s3 == 'a' || s3 == 'b' || s3 == 'c') {
+		cout << "\tMaalesef yanlis cevap.\n\tHic para kazanamadiniz.\n" << endl;
+		system("pause");exit(1);
+	}
+	else if (s3 == 'd') {
+		cout << "\t\tDogru cevap - 5000 TL'e sahipsiniz.\n" << endl;
+	}
+	cout << "\n\n" << endl;
+	//-------------------------------------------------------------------------------
+	cout << "SORU 4:\nMegastar lakapli unlumuz kimdir ?" << endl;
+	cout << "A)Tarkan    B)Sezen Aksu    C)Cagatay Akman    D)Murat Boz" << endl;
+	cout << "\t\tCevap : ";
+	cin >> s4;
+	if (s4 == 'c' || s4 == 'b' || s4 == 'd') {
+		cout << "\tMaalesef yanlis cevap.\n\tHic para kazanamadiniz.\n" << endl;
+		system("pause");exit(1);
+	}
+	else if (s4 == 'a') {
+		cout << "\t\tDogru cevap - 10000 TL'e sahipsiniz.\n" << endl;
+	}
+	cout << "\n\n" << endl;
+	//-------------------------------------------------------------------------------
+	cout << "SORU 5:\nTurkiye'nin baskenti neresidir ?" << endl;
+	cout << "A)Konya    B)Sivas    C)Ankara    D)Edirne" << endl;
+	cout << "\t\tCevap : ";
+	cin >> s5;
+	if (s5 == 'a' || s5 == 'b' || s5 == 'd') {
+		cout << "\tMaalesef yanlis cevap.\n\tHic para kazanamadiniz.\n" << endl;
+		system("pause");exit(1);
+	}
+	else if (s5 == 'c') {
+		cout << "\t\tDogru cevap - 50000 TL'e sahipsiniz.\n" << endl;
+	}
+	cout << "\n\n" << endl;
+	//-------------------------------------------------------------------------------
+	cout << "SORU 6:\nGalatasaray UEFA Kupası finalinde hangi takimi yenmistir ?" << endl;
+	cout << "A)Arsenal    B)Juventus    C)Real Madrid    D)Barcelona" << endl;
+	cout << "\t\tCevap : ";
+	cin >> s6;
+	if (s6 == 'c' || s6 == 'b' || s6 == 'd') {
+		cout << "\tMaalesef yanlis cevap.\n\tHic para kazanamadiniz.\n" << endl;
+		system("pause");exit(1);
+	}
+	else if (s6 == 'a') {
+		cout << "\t\tDogru cevap - 100000 TL'e sahipsiniz.\n" << endl;
+	}
+	cout << "\n\n" << endl;
+	//-------------------------------------------------------------------------------
+	char w;
+	cout << "Tebrikle baraj sorusuna geldiniz.Devam etmek istiyor musunuz ? (e/h)";
+	cin >> w;
+	if (w == 'h') {
+		cout << "Kazanilan para : 100000" << endl;
+		return 0;
+	}
+	else if (w == 'h') {
+		cout << "BARAJ SORUSU: " << endl;
+	}
+	cout << "SORU 7:\nTurkiye'nin 4.cumhurbaskaninin adi nedir ?" << endl;
+	cout << "A)Ismet Inonu    B)Cemal Gursel    C)Kenan Evren   D)Cevdet Sunay" << endl;
+	cout << "\t\tCevap : ";
+	cin >> s7;
+	if (s7 == 'a' || s7 == 'c' || s7 == 'd') {
+		cout << "\tMaalesef yanlis cevap.\n\t50000 para kazandiniz.\n" << endl;
+		system("pause");exit(1);
+	}
+	else if (s7 == 'b') {
+		cout << "\t\tDogru cevap - 200000 TL'e sahipsiniz.\n" << endl;
+	}
+	cout << "\n\n" << endl;
+	//-------------------------------------------------------------------------------
+	cout << "SORU 8:\nHangisi yasaminin son yillarini sagar olarak gecir mistir ?" << endl;
+	cout << "A)Beethovan   B)Mozart   C)Micheal Jackson   D)Rauf Denktas" << endl;
+	cout << "\t\tCevap : ";
+	cin >> s8;
+	if (s8 == 'c' || s8 == 'b' || s8 == 'd') {
+		cout << "\tMaalesef yanlis cevap.\n\t50000 para kazandiniz.\n" << endl;
+		system("pause");exit(1);
+	}
+	else if (s8 == 'a') {
+		cout << "\t\tDogru cevap - 400000 TL'e sahipsiniz.\n" << endl;
+	}
+	cout << "\n\n" << endl;
+	//-------------------------------------------------------------------------------
+	cout << "SORU 9:\nAskerlerin kullandigi su kabina ne denir ? " << endl;
+	cout << "A)Matara   B)Gugum   C)Termos   D)Surahi" << endl;
+	cout << "\t\tCevap : ";
+	cin >> s9;
+	if (s9 == 'c' || s9 == 'b' || s9 == 'd') {
+		cout << "\tMaalesef yanlis cevap.\n\t50000 para kazandiniz.\n" << endl;
+		system("pause");exit(1);
+	}
+	else if (s9 == 'a') {
+		cout << "\t\tDogru cevap - 500000 TL'e sahipsiniz.\n" << endl;
+	}
+	//-------------------------------------------------------------------------------
+	cout << "SORU 10:\nDunyanin yuz olcumun yuzde kaci karalar ile kaplidir ? " << endl;
+	cout << "A)78   B)65   C)45   D)29" << endl;
+	cout << "\t\tCevap : ";
+	cin >> s10;
+	if (s10 == 'c' || s10 == 'b' || s10 == 'a') {
+		cout << "\tMaalesef yanlis cevap.\n\t50000 para kazandiniz.\n" << endl;
+		system("pause");exit(1);
+	}
+	else if (s10 == 'd') {
+		cout << "\t\tDogru cevap - 600000 TL'e sahipsiniz.\n" << endl;
+	}
+	//-------------------------------------------------------------------------------
+	cout << "\t\tTebrikler 2.baraji astiniz !\n\n" << endl;
+	cout << "SORU 11:\n2007 Eurovision sarki yarismasinda ulkemizi Shake It Up Sekerim adli paracasiyla kim temsil etmistir ? " << endl;
+	cout << "A)Aleyna Tilki   B)Tarkan   C)Kenan Dogulu   D)Murat Boz" << endl;
+	cout << "\t\tCevap : ";
+	cin >> s11;
+	if (s11 == 'd' || s11 == 'b' || s11 == 'a') {
+		cout << "\tMaalesef yanlis cevap.\n\t200000 para kazandiniz.\n" << endl;
+		system("pause");exit(1);
+	}
+	else if (s11 == 'c') {
+		cout << "\t\tDogru cevap - 700000 TL'e sahipsiniz.\n" << endl;
+	}
+	//-------------------------------------------------------------------------------
+	cout << "SORU 12:\nGozun icindeki mercegin seffaligini yitirmesi ile ortaya cikan gorme bozuklugu nedir " << endl;
+	cout << "A)Miyop   B)Katarakt   C)Miyalit   D)Hipermetrop" << endl;
+	cout << "\t\tCevap : ";
+	cin >> s12;
+	if (s12 == 'c' || s12 == 'd' || s12 == 'a') {
+		cout << "\tMaalesef yanlis cevap.\n\t200000 para kazandiniz.\n" << endl;
+		system("pause");exit(1);
+	}
+	else if (s12 == 'b') {
+		cout << "\t\tDogru cevap - 800000 TL'e sahipsiniz.\n" << endl;
+	}
+	//-------------------------------------------------------------------------------
+	cout << "SORU 13:\n1516'da yapilan Merdabig Savasi Osmanli ile hangi devlet arasinda yapilmistir ? " << endl;
+	cout << "A)Bizans   B)Mogollar   C)Memlukler   D)Karahanlilar" << endl;
+	cout << "\t\tCevap : ";
+	cin >> s13;
+	if (s13 == 'd' || s13 == 'b' || s13 == 'a') {
+		cout << "\tMaalesef yanlis cevap.\n\t200000 para kazandiniz.\n" << endl;
+		system("pause");exit(1);
+	}
+	else if (s13 == 'c') {
+		cout << "\t\tDogru cevap - 900000 TL'e sahipsiniz.\n" << endl;
+	}
+	//-------------------------------------------------------------------------------
+	cout << "SORU 14:\nSiyasi otoritenin genellikle miras yolu ile bir kisinin uzerine kaldigi devlet duzeni ? " << endl;
+	cout << "A)Tiranlik   B)Aristokrasi   C)Monarsi   D)Kraliyet" << endl;
+	cout << "\t\tCevap : ";
+	cin >> s14;
+	if (s14 == 'd' || s14 == 'b' || s14 == 'a') {
+		cout << "\tMaalesef yanlis cevap.\n\t200000 para kazandiniz.\n" << endl;
+		system("pause");exit(1);
+	}
+	else if (s14 == 'c') {
+		cout << "\t\tDogru cevap - 950000 TL'e sahipsiniz.\n" << endl;
+	}
+	//-------------------------------------------------------------------------------
+	cout << "SORU 15:\n1973 yilinda anisina Izmir Konak Meydaninda ilk kursun aniti dikilen gazetici kimdir ? " << endl;
+	cout << "A)Hasan Tahsin   B)Namik Kemal   C)Sinasi   D)Ekrem Talu" << endl;
+	cout << "\t\tCevap : ";
+	cin >> s15;
+	if (s15 == 'c' || s15 == 'b' || s15 == 'a') {
+		cout << "\tMaalesef yanlis cevap.\n\t200000 para kazandiniz.\n" << endl;
+		system("pause");exit(1);
+	}
+	else if (s15 == 'd') {
+		cout << "\t\tTEBRIKLER Tum sorulari bilerek 1 milyona ulastiniz \n" << endl;
+	}
+	for (int i = 0;i < 10;i++) {
+		cout << "TEBRİKLER\tTEBRİKLER\tTEBRİKLER\tTEBRİKLER\t\TEBRİKLER\tTEBRİKLER" << endl;
+	}
+	cout << "\n\n\n" << endl;
+	char se;
+	cout << "Kopya cektiniz mi ?(e/h)" << endl;
+	cin >> se;
+	if (se == 'e') {
+		cout << "Diskalifiye oldunuz\t-\tTum paraniz sifirlanmistir." << endl;
+	}
+	else {
+		cout << "Basarili ve genel kulture hakim bir yasimaciydiniz." << endl;
+	}
+}
